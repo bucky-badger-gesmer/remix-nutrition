@@ -1,16 +1,18 @@
-import Nav from "~/components/Nav";
+import { Footer, Nav } from '../components';
 
 export default function Index() {
   return (
-    <div>
+    <>
       <Nav />
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <div className="bg-red-200 h-screen">
-
+      <div className="h-screen bg-white text-pink">
+        <img
+          className="object-cover h-1/2 w-full"
+          src="background-header.png"
+          alt="profile"
+        />
+        <h2>100% Personal. 100% Premier.</h2>
       </div>
-      <div className="bg-blue-200 h-screen">
-
-      </div>
-    </div>
+      <Footer />
+    </>
   );
 }
