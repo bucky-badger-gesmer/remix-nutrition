@@ -1,6 +1,6 @@
 import { Footer, Nav } from "../components";
 
-export default function About() {
+export default function Services() {
   return (
     <>
       <Nav />
@@ -12,7 +12,7 @@ export default function About() {
         />
         <div className="h-1/2 m-10">
           <h2 className="text-pink text-center text-xl md:text-3xl">
-            About
+            Services
           </h2>
         </div>
       </div>

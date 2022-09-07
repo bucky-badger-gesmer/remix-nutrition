@@ -23,7 +23,7 @@ const Nav = () => {
           <a href="index">Home</a>
         </li>
         <li className="p-4 hover:cursor-pointer hover:text-red">
-          <a href="about">About</a>
+          <a href="services">Services</a>
         </li>
         <li className="p-4 hover:cursor-pointer hover:text-red">
           <a href="contact">Contact</a>
@@ -47,7 +47,7 @@ const Nav = () => {
             <a href="index">Home</a>
           </li>
           <li className="p-4 border-b border-gray hover:cursor-pointer hover:text-red">
-            <a href="about">About</a>
+            <a href="services">Services</a>
           </li>
           <li className="p-4 border-b border-gray hover:cursor-pointer hover:text-red">
             <a href="contact">Contact</a>
