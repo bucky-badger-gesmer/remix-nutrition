@@ -11,38 +11,43 @@ export default function Index() {
           src="background-header.png"
           alt="profile"
         />
-        <div className="h-1/2 m-10">
+        <div className="m-10">
           <h2 className="text-pink text-center text-xl md:text-3xl">
             100% Personal. 100% Premier.
           </h2>
-          <ul className="text-justify text-l md:text-2xl">
+          <p className="text-gray text-justify m-4 text-xl md:text-2xl">
+            Welcome to Premier Plate Fitness! We would love to help you on your
+            fitness journey!
+          </p>
+          <ul className="text-l md:text-2xl">
             <li className="text-gray m-6">
               <AiOutlineCheckCircle
                 className="inline text-pink mr-4"
                 size={25}
               />
-              No two clients' nutrition plans are the same.
+              Flexible nutrition plans based on your fitness goals.
             </li>
             <li className="text-gray m-6">
               <AiOutlineCheckCircle
                 className="inline text-pink mr-4"
                 size={25}
               />
-              lorem ipsum
+              Can accomodate vegetarian, vegan, gluten free and other
+              food-restriction diets.
             </li>
             <li className="text-gray m-6">
               <AiOutlineCheckCircle
                 className="inline text-pink mr-4"
                 size={25}
               />
-              lorem ipsum
+              Help you decide what to order when going out to eat.
             </li>
             <li className="text-gray m-6">
               <AiOutlineCheckCircle
                 className="inline text-pink mr-4"
                 size={25}
               />
-              lorem ipsum
+              Incorporate your favorite foods for long-term success.
             </li>
           </ul>
         </div>
