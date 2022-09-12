@@ -5,7 +5,7 @@ export default function Contact() {
       <Nav />
       <div className="h-screen bg-white text-pink">
         <img
-          className="object-cover h-1/3 md:h-1/4 w-full"
+          className="object-cover h-72 md:h-64 w-full"
           src="contact-header.png"
           alt="contact-header"
         />

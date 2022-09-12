@@ -5,20 +5,20 @@ export default function Index() {
   return (
     <div>
       <Nav />
-      <div className="h-screen bg-white text-pink">
+      <div className="bg-white text-pink">
         <img
-          className="object-cover h-1/3 md:h-1/4 w-full"
+          className="object-cover h-72 md:h-64 w-full"
           src="background-header.png"
           alt="profile"
         />
-        <div className="m-10">
+        <div className="mt-10 pb-8 mx-10">
           <h2 className="text-pink text-center text-xl md:text-3xl">
             100% Personal. 100% Premier.
           </h2>
-          <p className="text-gray text-justify m-4 text-xl md:text-2xl">
-            Welcome to Premier Plate Fitness! We offer the best online nutriton
-            and fitness coaching, and we believe that premium fitness starts
-            with premium nutrition.
+          <p className="text-gray text-justify m-4 md:m-10 text-xl md:text-2xl">
+            Welcome to Premier Plate Fitness! We provide the finest online
+            nutriton and fitness coaching. We believe that premium fitness
+            begins with premium nutrition.
           </p>
           <ul className="text-l md:text-2xl">
             <li className="text-gray m-6">
@@ -48,17 +48,17 @@ export default function Index() {
                 className="inline text-pink mr-4"
                 size={25}
               />
-              Help you decide what to order when going out to eat.
+              Incorporate your favorite foods for long-term success.
             </li>
             <li className="text-gray m-6">
               <AiOutlineCheckCircle
                 className="inline text-pink mr-4"
                 size={25}
               />
-              Incorporate your favorite foods for long-term success.
+              Help you decide what to order when going out to eat.
             </li>
           </ul>
-          <div className="text-center mb-8">
+          <div className="text-center">
             <a href="services">
               <button className="content-center bg-red text-white font-bold py-2 px-4 rounded uppercase text-xl md:text-2xl shadow">
                 Online Programs
