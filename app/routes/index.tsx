@@ -15,12 +15,11 @@ export default function Index() {
           <h2 className="text-pink text-center text-xl md:text-3xl">
             100% Personal. 100% Premier.
           </h2>
-          <p className="text-gray text-justify m-4 md:m-10 text-xl md:text-2xl">
+          <p className="text-gray text-justify m-4 md:m-10 text-l md:text-2xl">
             Welcome to Premier Plate Fitness! We provide the finest online
-            nutriton and fitness coaching. We believe that premium fitness
-            begins with premium nutrition.
+            nutriton and fitness coaching.
           </p>
-          <ul className="text-l md:text-2xl">
+          <ul className="text-l md:text-2xl mx-auto">
             <li className="text-gray m-6">
               <AiOutlineCheckCircle
                 className="inline text-pink mr-4"

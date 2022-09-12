@@ -14,6 +14,9 @@ export default function Services() {
           <h2 className="text-pink text-center text-xl md:text-3xl">
             Services
           </h2>
+          <span className="text-pink text-l">
+            We believe that premium fitness begins with premium nutrition.
+          </span>
         </div>
       </div>
       <Footer />
