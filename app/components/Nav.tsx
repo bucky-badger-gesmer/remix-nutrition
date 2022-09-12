@@ -1,8 +1,23 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    function handleEvent () {
+      if (window.innerWidth > 640) {
+        setIsOpen(false);
+      }
+    }
+    
+    window.addEventListener("resize", handleEvent);
+
+    // componentDidUnmount because dependency array is empty
+    return function () {
+      window.removeEventListener("resize", handleEvent)
+    }
+  }, []);
 
   const toggleNav = () => {
     setIsOpen(!isOpen);
