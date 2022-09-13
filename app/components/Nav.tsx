@@ -5,18 +5,18 @@ const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-    function handleEvent () {
+    function handleEvent() {
       if (window.innerWidth > 640) {
         setIsOpen(false);
       }
     }
-    
+
     window.addEventListener("resize", handleEvent);
 
     // componentDidUnmount because dependency array is empty
     return function () {
-      window.removeEventListener("resize", handleEvent)
-    }
+      window.removeEventListener("resize", handleEvent);
+    };
   }, []);
 
   const toggleNav = () => {
