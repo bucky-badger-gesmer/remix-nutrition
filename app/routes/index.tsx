@@ -8,8 +8,8 @@ export default function Index() {
       <div className="bg-white text-pink h-full">
         <img
           className="object-cover h-72 md:h-96 w-full"
-          src="background-header.png"
-          alt="profile"
+          src="leafy-greens.png"
+          alt="homepage header"
         />
         <div className="py-10 mx-10 md:mx-20">
           <h2 className="text-pink text-center text-xl md:text-3xl">
