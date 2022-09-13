@@ -2,7 +2,7 @@
 interface PackageProps {
   imageSrc: string;
   imageAlt: string;
-  price: number;
+  price: string;
   header: string;
   subHeader: string;
 }
@@ -24,7 +24,7 @@ const Package = ({ imageSrc, imageAlt, price, header, subHeader }: PackageProps)
         </p>
         <a href="services">
           <button className="content-center bg-red text-white font-bold py-2 px-4 rounded uppercase text-xl md:text-2xl shadow">
-            {`$${price}/monthly`}
+            {price}
           </button>
         </a>
       </div>
