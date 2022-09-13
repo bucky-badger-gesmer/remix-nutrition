@@ -5,13 +5,13 @@ export default function Index() {
   return (
     <div>
       <Nav />
-      <div className="bg-white text-pink">
+      <div className="bg-white text-pink h-full">
         <img
-          className="object-cover h-72 md:h-64 w-full"
+          className="object-cover h-72 md:h-96 w-full"
           src="background-header.png"
           alt="profile"
         />
-        <div className="mt-10 pb-8 mx-10">
+        <div className="py-10 mx-10 md:mx-20">
           <h2 className="text-pink text-center text-xl md:text-3xl">
             100% Personal. 100% Premier.
           </h2>
@@ -32,7 +32,15 @@ export default function Index() {
                 className="inline text-pink mr-4"
                 size={25}
               />
-              Flexible nutrition plans based on your fitness goals.
+              Variety of coaching packages to chose from.
+            </li>
+            <li className="text-gray m-6">
+              <AiOutlineCheckCircle
+                className="inline text-pink mr-4"
+                size={25}
+              />
+              No-nonsense, yet flexible nutrition plans. Tried and true methods
+              to help you achieve your fitness goals.
             </li>
             <li className="text-gray m-6">
               <AiOutlineCheckCircle
@@ -47,14 +55,7 @@ export default function Index() {
                 className="inline text-pink mr-4"
                 size={25}
               />
-              Incorporate your favorite foods for long-term success.
-            </li>
-            <li className="text-gray m-6">
-              <AiOutlineCheckCircle
-                className="inline text-pink mr-4"
-                size={25}
-              />
-              Help you decide what to order when going out to eat.
+              Incorporate your favorite foods for long-term, sustainable success.
             </li>
           </ul>
           <div className="text-center">
