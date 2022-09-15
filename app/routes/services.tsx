@@ -33,28 +33,28 @@ export default function Services() {
               <Package
                 imageSrc="plates.png"
                 imageAlt="premier package"
-                price={"$180.00"} // $40/month
+                price={"$180.00"}
                 header="2 Months Premier Plate Coaching Plan"
                 subHeader="Consists of a nutrition plan for body recomposition (burning fat and building muscle). Weekly check-ins are included, as well as 24/7 support via email."
               />
               <Package
                 imageSrc="plates.png"
                 imageAlt="premier package"
-                price={"$250.00"} // $37.33/month
+                price={"$250.00"}
                 header="3 Months Premier Plate Coaching Plan"
                 subHeader="Consists of a nutrition plan for body recomposition (burning fat and building muscle). Weekly check-ins are included, as well as 24/7 support via email."
               />
               <Package
                 imageSrc="plates.png"
                 imageAlt="premier package"
-                price={"$480.00"} // $35/month
+                price={"$480.00"}
                 header="6 Months Premier Plate Coaching Plan"
                 subHeader="Consists of a nutrition plan for body recomposition (burning fat and building muscle). Weekly check-ins are included, as well as 24/7 support via email."
               />
               <Package
                 imageSrc="plates.png"
                 imageAlt="premier package"
-                price={"$900.00"} // 33.33/month
+                price={"$900.00"}
                 header="1 Year Premier Plate Coaching Plan"
                 subHeader="Consists of a nutrition plan for body recomposition (burning fat and building muscle). Weekly check-ins are included, as well as 24/7 support via email."
               />
