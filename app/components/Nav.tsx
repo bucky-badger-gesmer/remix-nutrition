@@ -53,11 +53,11 @@ const Nav = () => {
       <div
         className={
           isOpen
-            ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray bg-white ease-in-out duration-500"
-            : "fixed left-[-100%] top-0 w-[60%] h-full border-r border-r-gray bg-white ease-in-out duration-500"
+            ? "fixed left-0 border-t border-t-gray top-20 w-[100%] h-full bg-white ease-in-out duration-500"
+            : "fixed left-[-100%] border-t border-t-gray top-20 w-[100%] h-full bg-white ease-in-out duration-500"
         }
       >
-        <ul className="pt-12 uppercase text-gray">
+        <ul className="pt-0 uppercase text-gray">
           <li className="p-4 border-b border-gray hover:cursor-pointer hover:text-red">
             <a href="index">Home</a>
           </li>
