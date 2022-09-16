@@ -1,16 +1,15 @@
-import { Form } from "@remix-run/react";
 import { Footer, Nav } from "../components";
 export default function Contact() {
   return (
     <>
       <Nav />
-      <div className="bg-white text-pink">
+      <div className="bg-white text-pink mb-0">
         <img
           className="object-cover h-72 md:h-96 w-full"
           src="tennis-shoes.png"
           alt="contact header"
         />
-        <div className="h-1/2 m-10">
+        <div className="h-1/2 mt-10 mx-10 pb-10">
           <h2 className="text-pink text-center text-xl md:text-3xl">
             Contact Us
           </h2>
@@ -24,10 +23,9 @@ export default function Contact() {
                   First Name
                 </label>
                 <input
-                  className="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                  className="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none"
                   id="grid-first-name"
                   type="text"
-                  placeholder="Jane"
                 />
                 <p className="text-red-500 text-xs italic">
                   Please fill out this field.
@@ -41,10 +39,9 @@ export default function Contact() {
                   Last Name
                 </label>
                 <input
-                  className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                  className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:border-gray-500"
                   id="grid-last-name"
                   type="text"
-                  placeholder="Doe"
                 />
               </div>
             </div>
@@ -57,7 +54,7 @@ export default function Contact() {
                   E-mail
                 </label>
                 <input
-                  className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                  className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-gray-500"
                   id="email"
                   type="email"
                 />
@@ -75,7 +72,7 @@ export default function Contact() {
                   Message
                 </label>
                 <textarea
-                  className=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
+                  className=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-gray-500 h-48 resize-none"
                   id="message"
                 ></textarea>
                 <p className="text-gray-600 text-xs italic">
